@@ -5,4 +5,12 @@
 """
 
 # Твой код здесь
-fdfdfdfdfdfd
+usd = 530
+eur = 615
+rub = 6
+
+tenge = float(input("тенги"))
+
+print("Доллары:", tenge / usd)
+print("Евро:", tenge / eur)
+print("Рубли:", tenge / rub)
