@@ -7,9 +7,9 @@
 # Твой код здесь
 bal = int(input())
 if bal > 30000
-  cki = bal * 0,1
+  cki = bal * 0.1
 elif bal > 10000
-  cki = bal *0,05
+  cki = bal *0.05
 else
   cki = 0 
 print("скидка",cki)
