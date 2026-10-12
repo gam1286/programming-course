@@ -5,3 +5,10 @@
 """
 
 # Твой код здесь
+a = int(input("цена "))
+b = int(input("колво"))
+
+c = a * b
+
+print(c)
+print(c * 1.16)
