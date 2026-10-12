@@ -6,7 +6,7 @@
 
 # Твой код здесь
 xb = int(input())
-if xd 2 % == 0:
+if xd % 2  == 0:
    print("четное")
 else:
      print("нечетное")
