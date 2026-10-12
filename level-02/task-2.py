@@ -5,3 +5,14 @@
 """
 
 # Твой код здесь
+bal = int(input())
+if bal < 0 or bal > 100:
+    print("ошибка")
+elif bal >= 90:
+     print(5)
+elif bal >=75:
+     print(4)
+elif bal >=50:
+  print(3)
+else
+  print(2)
