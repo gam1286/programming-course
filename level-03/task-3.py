@@ -5,3 +5,16 @@
 """
 
 # Твой код здесь
+a = 11
+k = 0
+n = 0
+while n ! = a:
+    n = int(input("число "))
+    k + = 1
+
+    if n < a:
+        print("блше")
+    if n > a:
+        print("менш")
+
+print("попытк", k)
