@@ -5,3 +5,5 @@
 """
 
 # Твой код здесь
+a = [int(input()) for i in range(10)]
+print(sum(a)/10, max(a), min(a), a.count(2))
