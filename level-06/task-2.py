@@ -5,3 +5,9 @@
 """
 
 # Твой код здесь
+clowa= input("ввод")
+
+if clowa == clowa[::-1]:
+    print("палид")
+else:
+    print("не палид")
