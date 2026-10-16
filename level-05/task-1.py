@@ -6,16 +6,16 @@
 
 # Твой код здесь
 
-def plus(a, b):
+def pluse(a, b):
     return a + b
 
-def minus(a, b):
+def minuse(a, b):
     return a - b
 
-def multiply(a, b):
+def umnaze(a, b):
     return a * b
 
-def divide(a, b):
+def dilit(a, b):
     if b == 0:
         return "нол"
     return a / b
@@ -27,12 +27,12 @@ b = float(input("второе чи сл "))
 op = input("че(+, -, *, /): ")
 
 if op == "+":
-    print(plus(a, b))
+    print(pluse(a, b))
 elif op == "-":
-    print(minus(a, b))
+    print(minuse(a, b))
 elif op == "*":
-    print(multiply(a, b))
+    print(umnaze(a, b))
 elif op == "/":
-    print(divide(a, b))
+    print(dilit(a, b))
 else:
     print("хз")
